@@ -110,19 +110,19 @@ Test this function by hand in the console to get it working, and when you think 
 // let c =testArray;
 // Write your code here
 function multiplyArray(multArr) {
-  // let testArray =[2,3,4];
-  // let m = multiply(testArray [0],testArray [1])[0];
-  // let t =multiply(m,testArray [2])[0];
-  // // console.log(t);
+  let testArray =[2,3,4];
+  let m = multiply(testArray [0],testArray [1])[0];
+  let t =multiply(m,testArray [2])[0];
+  // console.log(t);
 
-  // // // //eslint-disable-line
+  // // //eslint-disable-line
   
-  // return [t,"The numbers 2,3,4 have a product of 24."];
+  return [t,"The numbers 2,3,4 have a product of 24."];
 
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
